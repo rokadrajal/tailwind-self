@@ -1,0 +1,612 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css"
+        integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+</head>
+
+<body>
+    <nav class="navbar flex justify-between pt-3 pb-3 shadow-md">
+        <div class="n-1 flex gap-3">
+            <img class="w-7 h-6 mt-3 ms-8" src="hamburgericon.png" alt="">
+            <img class="w-44" src="554-1695753000-logos_200x50_3a403492-4edb-4054-b8c3-b1c90dc904ef.png" alt="">
+        </div>
+        <div class="n-2 flex border-2  border-gray-500 rounded-lg w-80 h-10 me-12 mt-1">
+            <input class="text-sm font-light  ms-6" type="text" placeholder="Search for milk shop">
+            <svg class="w-6 ms-28" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={0.3}
+                stroke="currentColor" className="size-6">
+                <path strokeLinecap="round" strokeLinejoin="round"
+                    d="m21 21-5.197-5.197m0 0A7.5 7.5 0 1 0 5.196 5.196a7.5 7.5 0 0 0 10.607 10.607Z" />
+            </svg>
+
+        </div>
+
+    </nav>
+
+    <div class="option flex justify-evenly mt-6">
+        <button class="left w-10 h-10 rounded-full shadow-lg flex items-center justify-center mt-8">
+            <svg class="w-5 " xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={1.8}
+                stroke="currentColor" className="size-6">
+                <path strokeLinecap="round" strokeLinejoin="round" d="M15.75 19.5 8.25 12l7.5-7.5" />
+            </svg>
+        </button>
+
+        <div class="o-1">
+            <img class="w-24 rounded-full border-2 border-[#00552d] mb-2"
+                src="875_202410010322_Category_Icon_1_107x107.jpg" alt="">
+            <a class="text-sm ms-4 " href="">Gift Store</a>
+        </div>
+
+        <div class="o-2">
+            <img class="w-24 rounded-full border-2 border-[#00552d] mb-2" src="Gelbars_107x107.jpg" alt="">
+            <a class="text-sm ms-5" href="">Gel Bars</a>
+        </div>
+
+        <div class="o-3">
+            <img class="w-24 rounded-full border-2 border-[#00552d] mb-2"
+                src="875_202501290453_Moisturizing_bars_ICON_6804df92-428e-47a8-9251-33a5dd573ccc_107x107.jpg" alt="">
+            <a class="text-sm" href="">Moisturizing Bar</a>
+        </div>
+
+        <div class="o-4">
+            <img class="w-24 rounded-full border-2 border-[#00552d] mb-2" src="showergel_107x107.jpg" alt="">
+            <a class="text-sm ms-3" href="">Shower Gels</a>
+        </div>
+
+        <div class="o-5">
+            <img class="w-24 rounded-full border-2 border-[#00552d] mb-2" src="Handwash_107x107.jpg" alt="">
+            <a class="text-sm ms-2" href="">Hand Washes</a>
+        </div>
+
+        <div class="o-6">
+            <img class="w-24 rounded-full border-2 border-[#00552d] mb-2" src="FDHNPMLT120_1_107x107.jpg" alt="">
+            <a class="text-sm ms-1" href="">Happy Naturals</a>
+        </div>
+
+        <div class="o-7">
+            <img class="w-24 rounded-full border-2 border-[#00552d] mb-2" src="menrange_107x107.jpg" alt="">
+            <a class="text-sm ms-3" href="">Men's Range</a>
+        </div>
+
+        <div class="o-8">
+            <img class="w-24 rounded-full border-2 border-[#00552d] mb-2" src="PoufLoofah-Green_107x107.jpg" alt="">
+            <a class="text-sm ms-1" href="">Bath Essentials</a>
+        </div>
+
+        <button class="right w-10 h-10 rounded-full shadow-lg flex items-center justify-center mt-8">
+            <svg class="w-5" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={1.5}
+                stroke="currentColor" className="size-6">
+                <path strokeLinecap="round" strokeLinejoin="round" d="m8.25 4.5 7.5 7.5-7.5 7.5" />
+            </svg>
+        </button>
+    </div>
+
+
+    <div class="pages">
+        <div class="p-1 ms-24 mt-12">
+            <img width="1200" src="554-1696444200-sara_with_all_range_1920x350_289162a4-4271-42ab-91bd-68122fb149c2.jpg"
+                alt="">
+        </div>
+        <div class="p-2 flex justify-center gap-4 transition">
+            <button class="b-1 ">
+                <svg class="w-4" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={1.8}
+                    stroke="currentColor" className="size-6">
+                    <path strokeLinecap="round" strokeLinejoin="round" d="M15.75 19.5 8.25 12l7.5-7.5" />
+                </svg>
+            </button>
+
+            <button class="b-2 w-2.5 h-2.5 mt-1 rounded-full bg-[#00552d]"></button>
+            <button class="b-3 w-2.5 h-2.5 mt-1 rounded-full bg-[#dedede] hover:scale-125 "></button>
+            <button class="b-4 w-2.5 h-2.5 mt-1 rounded-full bg-[#dedede] hover:scale-125 "></button>
+
+            <button class="b-5">
+                <svg class="w-4" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={1.5}
+                    stroke="currentColor" className="size-6">
+                    <path strokeLinecap="round" strokeLinejoin="round" d="m8.25 4.5 7.5 7.5-7.5 7.5" />
+                </svg>
+
+            </button>
+
+        </div>
+    </div>
+
+    <div class="cards-1">
+        <div class="part-1 flex justify-center gap-20">
+            <h1 class="text-4xl font-bold mt-8 ">NEW LAUNCHES</h1>
+
+        </div>
+        <div class="part-2 flex justify-end -mt-20">
+            <a class="mt-14   text-end" href="">View all</a>
+            <svg class="w-4 me-28 mt-14 ms-2" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24"
+                strokeWidth={1.5} stroke="currentColor" className="size-6">
+                <path strokeLinecap="round" strokeLinejoin="round" d="m8.25 4.5 7.5 7.5-7.5 7.5" />
+            </svg>
+        </div>
+
+        <div class="card flex gap-5 justify-center mt-8 mb-5">
+            <button
+                class="b-6 w-10 h-10 rounded-full shadow-lg flex items-center justify-center mt-44 -me-8  bg-white ">
+                <svg class="w-5 " xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={1.8}
+                    stroke="currentColor" className="size-6">
+                    <path strokeLinecap="round" strokeLinejoin="round" d="M15.75 19.5 8.25 12l7.5-7.5" />
+                </svg>
+            </button>
+
+            <div class="card-1 w-72 shadow-lg transition">
+                <img class="w-60 ms-6 pt-6 hover:scale-110" src="PFDSO0601-1.jpg" alt="">
+                <div class="gap-1 ms-4 mt-4">
+                    <a class="" href="">Fiama Japanese Hokkaido Milk <br> Bar Celebration Pack 125gx5</a>
+                    <div class="review-1 flex mt-1 mb-3">
+                        <p class="w-10 bg-[#E6F2D9] text-[#4CAF50] text-sm "> ★4.91</p>
+                        <img width="20" src="blue-checkmark-validation-social-media-png.webp" alt="">
+                        <h1 class="text-sm ">32 Reviews</h1>
+                    </div>
+                    <button class="text-white text-sm font-bold bg-[#00552d] w-64 pt-1 pb-1 mb-4">View Product</button>
+                </div>
+            </div>
+
+            <div class="card-2 w-72 shadow-lg transition">
+                <img class="w-60 ms-6 pt-6 hover:scale-110" src="PFDSO0600-1.jpg" alt="">
+                <div class="gap-2 ms-4 mt-4">
+                    <a class="" href="">Fiama Japanese Hokkaido Milk <br> Bar Blue Berry 125gx3</a>
+                    <div class="review-2 flex mt-1 mb-3">
+                        <p class="w-10 bg-[#E6F2D9] text-[#4CAF50] text-sm ps-1"> ★4.0</p>
+                        <img width="20" src="blue-checkmark-validation-social-media-png.webp" alt="">
+                        <h1 class="text-sm ">1 Reviews</h1>
+                    </div>
+                    <button class="text-white text-sm font-bold bg-[#00552d] w-64 pt-1 pb-1 mb-4">View Product</button>
+                </div>
+            </div>
+
+            <div class="card-3 w-72 shadow-lg transition">
+                <img class="w-60 ms-6 pt-6 hover:scale-110" src="PFDSO0599-1.jpg" alt="">
+                <div class="gap-3 ms-4 mt-4">
+                    <a class="" href="">Fiama Japanese Hokkaido Milk <br> Bar Goji Berry 125gx3</a>
+                    <div class="review-3 flex mt-1 mb-3">
+                        <p class="w-10 bg-[#E6F2D9] text-[#4CAF50] text-sm ps-1 "> ★5.0</p>
+                        <img width="20" src="blue-checkmark-validation-social-media-png.webp" alt="">
+                        <h1 class="text-sm ">5 Reviews</h1>
+                    </div>
+                    <button class="text-white text-sm font-bold bg-[#00552d] w-64 pt-1 pb-1 mb-4">View Product</button>
+                </div>
+            </div>
+
+            <div class="card-4 w-72 shadow-lg transition">
+                <img class="w-60 ms-6 pt-6 hover:scale-110" src="PFDSO0604-1.jpg" alt="">
+                <div class="gap-4 ms-4 mt-4">
+                    <a class="" href="">Fiama Japanese Hokkaido Milk <br> Bar Blue Barry 125</a>
+                    <div class="review-4 flex mt-1 mb-3">
+                        <p class="w-10 bg-[#E6F2D9] text-[#4CAF50] text-sm ps-1"> ★4.5</p>
+                        <img width="20" src="blue-checkmark-validation-social-media-png.webp" alt="">
+                        <h1 class="text-sm ">4 Reviews</h1>
+                    </div>
+                    <button class="text-white text-sm font-bold bg-[#00552d] w-64 pt-1 pb-1 mb-4">View Product</button>
+                </div>
+            </div>
+
+            <button class="b-7 w-10 h-10 rounded-full shadow-lg flex items-center justify-center mt-44 -ms-8 bg-white ">
+                <svg class="w-5" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={1.5}
+                    stroke="currentColor" className="size-6">
+                    <path strokeLinecap="round" strokeLinejoin="round" d="m8.25 4.5 7.5 7.5-7.5 7.5" />
+                </svg>
+            </button>
+        </div>
+    </div>
+
+
+
+    <div class="cards-2">
+        <div class="part-3 flex justify-center gap-20">
+            <h1 class="text-4xl font-bold mt-8 ">BEST SELLERS</h1>
+
+        </div>
+        <div class="part-4 flex justify-end -mt-20">
+            <a class="mt-14   text-end" href="">View all</a>
+            <svg class="w-4 me-28 mt-14 ms-2" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24"
+                strokeWidth={1.5} stroke="currentColor" className="size-6">
+                <path strokeLinecap="round" strokeLinejoin="round" d="m8.25 4.5 7.5 7.5-7.5 7.5" />
+            </svg>
+        </div>
+
+        <div class="cardds-1 flex gap-5 justify-center mt-8 mb-5">
+            <button class="b-8 w-10 h-10 rounded-full shadow-lg flex items-center justify-center  mt-44 -me-8 bg-white">
+                <svg class="w-5 " xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={1.8}
+                    stroke="currentColor" className="size-6">
+                    <path strokeLinecap="round" strokeLinejoin="round" d="M15.75 19.5 8.25 12l7.5-7.5" />
+                </svg>
+            </button>
+
+            <div class="cardd-1 w-72 shadow-lg transition">
+                <img class="w-60 ms-6 pt-6 hover:scale-110" src="FDGBBMV1258_2.jpg" alt="">
+                <div class="gap-5 ms-4 mt-4">
+                    <a class="" href="">Mega Celebration Pack Multi- <br> Variant Gel Bar, 125g(Pack...</a>
+                    <div class="review-5 flex mt-1 mb-3">
+                        <p class="w-10 bg-[#E6F2D9] text-[#4CAF50] text-sm ps-1"> ★4.7</p>
+                        <img width="20" src="blue-checkmark-validation-social-media-png.webp" alt="">
+                        <h1 class="text-sm ">145 Reviews</h1>
+                    </div>
+                    <button class="text-white text-sm font-bold bg-[#00552d] w-64 pt-1 pb-1 mb-4">View Product</button>
+                </div>
+            </div>
+
+            <div class="cardd-2 w-72 shadow-lg transition">
+                <img class="w-60 ms-6 pt-6 hover:scale-110" src="503385_1.jpg" alt="">
+                <div class="gap-6 ms-4 mt-4">
+                    <a class="" href="">Refreshing Pulse Men Gel Bar, <br> 125 G</a>
+                    <div class="review-6 flex mt-1 mb-3">
+                        <p class="w-10 bg-[#E6F2D9] text-[#4CAF50] text-sm "> ★4.74</p>
+                        <img width="20" src="blue-checkmark-validation-social-media-png.webp" alt="">
+                        <h1 class="text-sm ">19 Reviews</h1>
+                    </div>
+                    <button class="text-white text-sm font-bold bg-[#00552d] w-64 pt-1 pb-1 mb-4">View Product</button>
+                </div>
+            </div>
+
+            <div class="card-3 w-72 shadow-lg transition">
+                <img class="w-60 ms-6 pt-6 hover:scale-110" src="FDLF1253_1.jpg" alt="">
+                <div class="gap-7 ms-4 mt-4">
+                    <a class="" href="">Patchouli & Macademia Gel Bar, <br> 125g (Pack Of...</a>
+                    <div class="review-7 flex mt-1 mb-3">
+                        <p class="w-10 bg-[#E6F2D9] text-[#4CAF50] text-sm "> ★4.88</p>
+                        <img width="20" src="blue-checkmark-validation-social-media-png.webp" alt="">
+                        <h1 class="text-sm ">17 Reviews</h1>
+                    </div>
+                    <button class="text-white text-sm font-bold bg-[#00552d] w-64 pt-1 pb-1 mb-4">View Product</button>
+                </div>
+            </div>
+
+            <div class="card-4 w-72 shadow-lg transition">
+                <img class="w-60 ms-6 pt-6 hover:scale-110" src="FDMD110_1.jpg" alt="">
+                <div class="gap-8 ms-4 mt-4">
+                    <a class="" href="">Peach & Avocado Gel Bar, 125 G</a>
+                    <div class="review-8 flex mt-7 mb-3">
+                        <p class="w-10 bg-[#E6F2D9] text-[#4CAF50] text-sm ps-1"> ★4.6</p>
+                        <img width="20" src="blue-checkmark-validation-social-media-png.webp" alt="">
+                        <h1 class="text-sm ">50 Reviews</h1>
+                    </div>
+                    <button class="text-white text-sm font-bold bg-[#00552d] w-64 pt-1 pb-1 mb-4">View Product</button>
+                </div>
+            </div>
+
+            <button class="b-9 w-10 h-10 rounded-full shadow-lg flex items-center justify-center mt-44 -ms-8 bg-white">
+                <svg class="w-5" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={1.5}
+                    stroke="currentColor" className="size-6">
+                    <path strokeLinecap="round" strokeLinejoin="round" d="m8.25 4.5 7.5 7.5-7.5 7.5" />
+                </svg>
+            </button>
+        </div>
+    </div>
+
+
+    <div class="video">
+        <div class="part-5 flex justify-center gap-20">
+            <h1 class="text-4xl font-bold mt-8 ">VIDEOS</h1>
+        </div>
+
+        <div class="videos flex justify-center gap-5 mt-9">
+            <button
+                class="b-10 w-10 h-10 rounded-full bg-white shadow-lg flex items-center justify-center  mt-44 -me-8 ">
+                <svg class="w-5" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={1.8}
+                    stroke="currentColor" className="size-6">
+                    <path strokeLinecap="round" strokeLinejoin="round" d="M15.75 19.5 8.25 12l7.5-7.5" />
+                </svg>
+            </button>
+            <div class="video-1">
+                <iframe width="600" height="315" src="https://www.youtube.com/embed/ewMzNoG9yC8?si=gdhmcG8-0vy8_IZc"
+                    title="YouTube video player" frameborder="0"
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                    referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+            </div>
+            <div class="video-2">
+                <iframe width="600" height="315" src="https://www.youtube.com/embed/Y6hnjJp_FRA?si=Z98fMmwDBT3e6CuV"
+                    title="YouTube video player" frameborder="0"
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                    referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+            </div>
+
+            <button class="b-11 w-10 h-10 rounded-full shadow-lg flex items-center justify-center mt-44 -ms-8 bg-white">
+                <svg class="w-5" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={1.5}
+                    stroke="currentColor" className="size-6">
+                    <path strokeLinecap="round" strokeLinejoin="round" d="m8.25 4.5 7.5 7.5-7.5 7.5" />
+                </svg>
+            </button>
+
+        </div>
+
+        <p class="pero ms-20 mt-2 text-gray-600 font-semibold">*You will be redirected to a third-party website once you
+            click the “Watch on YouTube” button. This link is provided for reference purposes only.</p>
+
+    </div>
+
+    <div class="range">
+        <div class="part-6 flex justify-center gap-20">
+            <h1 class="text-4xl font-bold mt-20 ">DISCOVER OUR RANGE</h1>
+        </div>
+        <div class="part-7 flex justify-end -mt-20">
+            <a class="mt-14   text-end" href="">View all</a>
+            <svg class="w-4 me-28 mt-14 ms-2" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24"
+                strokeWidth={1.5} stroke="currentColor" className="size-6">
+                <path strokeLinecap="round" strokeLinejoin="round" d="m8.25 4.5 7.5 7.5-7.5 7.5" />
+            </svg>
+        </div>
+        <div class="part-8">
+            <ul class="flex justify-center gap-12 text-sm mt-6 mb-3">
+                <li><a class="text-[#00552d] font-semibold border-b-2 border-[#23e700]" href="">Shower Gels</a></li>
+                <li><a class="text-gray-600" href="">Men's Range</a></li>
+                <li><a class="text-gray-600" href="">Handwashes</a></li>
+                <li><a class="text-gray-600" href="">Bath Essentials</a></li>
+                <li><a class="text-gray-600" href="">Gift Packs</a></li>
+            </ul>
+        </div>
+
+        <div class="cardds-2 flex gap-5 justify-center mt-8 mb-5">
+            <button class="b-12 w-10 h-10 rounded-full shadow-lg flex items-center justify-center  mt-44 -me-8 bg-white">
+                <svg class="w-5 " xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={1.8}
+                    stroke="currentColor" className="size-6">
+                    <path strokeLinecap="round" strokeLinejoin="round" d="M15.75 19.5 8.25 12l7.5-7.5" />
+                </svg>
+            </button>
+
+            <div class="cardd-5 w-60 shadow-lg transition">
+                <img class="w-48 ms-6 pt-6 hover:scale-110" src="8905110004202.1.png" alt="">
+                <div class="gap-9  mt-4">
+                    <a class="" href="">Peach & Avocado Shower <br> Gel 895 Ml</a>
+                    <div class="review-6 flex mt-1 mb-3">
+                        <p class="w-10 bg-[#E6F2D9] text-[#4CAF50] text-sm ps-1"> ★4.29</p>
+                        <img width="20" src="blue-checkmark-validation-social-media-png.webp" alt="">
+                        <h1 class="text-sm ">14 Reviews</h1>
+                    </div>
+                    <button class="text-white text-sm font-bold bg-[#00552d] w-full pt-1 pb-1 mb-1">View Product</button>
+                </div>
+            </div>
+
+            <div class="cardd-6 w-60 shadow-lg transition">
+                <img class="w-48 ms-6 pt-6 hover:scale-110" src="8905110004196.4.png" alt="">
+                <div class="gap-10 mt-4">
+                    <a class="" href="">Blackcurrant & Bearberry <br> Shower Gel 895 Ml</a>
+                    <div class="review-7 flex mt-1 mb-3">
+                        <p class="w-10 bg-[#E6F2D9] text-[#4CAF50] text-sm "> ★4.02</p>
+                        <img width="20" src="blue-checkmark-validation-social-media-png.webp" alt="">
+                        <h1 class="text-sm ">57 Reviews</h1>
+                    </div>
+                    <button class="text-white text-sm font-bold bg-[#00552d] w-full pt-1 pb-1 mb-1">View Product</button>
+                </div>
+            </div>
+
+            <div class="card-7 w-60 shadow-lg transition">
+                <img class="w-48 ms-6 pt-6 hover:scale-110" src="503383_1.jpg" alt="">
+                <div class="gap-11 mt-4">
+                    <a class="" href="">Deep Clean Charcoal & <br> Grapefruit Men Shower Gel...</a>
+                    <div class="review-8 flex mt-1 mb-3">
+                        <p class="w-10 bg-[#E6F2D9] text-[#4CAF50] text-sm "> ★5.0</p>
+                        <img width="20" src="blue-checkmark-validation-social-media-png.webp" alt="">
+                        <h1 class="text-sm ">4 Reviews</h1>
+                    </div>
+                    <button class="text-white text-sm font-bold bg-[#00552d] w-full pt-1 pb-1 mb-1">View Product</button>
+                </div>
+            </div>
+
+            <div class="card-8 w-60 shadow-lg transition">
+                <img class="w-48 ms-6 pt-6 hover:scale-110" src="FDEDSG250_1.jpg" alt="">
+                <div class="gap-12  mt-4">
+                    <a class="" href="">Blackcurrant & Bearberry <br> Shower Gel, 250 Ml</a>
+                    <div class="review-9 flex mt-1 mb-3">
+                        <p class="w-10 bg-[#E6F2D9] text-[#4CAF50] text-sm ps-1"> ★4.6</p>
+                        <img width="20" src="blue-checkmark-validation-social-media-png.webp" alt="">
+                        <h1 class="text-sm ">5 Reviews</h1>
+                    </div>
+                    <button class="text-white text-sm font-bold bg-[#00552d] w-full pt-1 pb-1 mb-1">View Product</button>
+                </div>
+            </div>
+
+            <div class="card-9 w-60 shadow-lg transition">
+                <img class="w-48 ms-6 pt-6 hover:scale-110" src="FDMSGDC500_1.jpg" alt="">
+                <div class="gap-13 mt-4">
+                    <a class="" href="">Deep Clean Men Shower Gel, <br> 500 Ml</a>
+                    <button class="text-white text-sm font-bold bg-[#00552d] w-full pt-1 pb-1 mt-9 mb-1 ">View Product</button>
+                </div>
+            </div>
+
+            <button class="b-13 w-10 h-10 rounded-full shadow-lg flex items-center justify-center mt-44 -ms-8 bg-white">
+                <svg class="w-5" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={1.5}
+                    stroke="currentColor" className="size-6">
+                    <path strokeLinecap="round" strokeLinejoin="round" d="m8.25 4.5 7.5 7.5-7.5 7.5" />
+                </svg>
+            </button>
+        </div>
+
+    </div>
+
+
+
+    <div class="cards-3">
+        <div class="part-9 flex justify-center gap-20">
+            <h1 class="text-4xl font-bold mt-8 ">COMBOS</h1>
+
+        </div>
+        <div class="part-10 flex justify-end -mt-20">
+            <a class="mt-14   text-end" href="">View all</a>
+            <svg class="w-4 me-28 mt-14 ms-2" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24"
+                strokeWidth={1.5} stroke="currentColor" className="size-6">
+                <path strokeLinecap="round" strokeLinejoin="round" d="m8.25 4.5 7.5 7.5-7.5 7.5" />
+            </svg>
+        </div>
+
+        <div class="cardds-2 flex gap-5 justify-center mt-8 mb-5">
+            <button
+                class="b-14 w-10 h-10 rounded-full shadow-lg flex items-center justify-center  mt-44 -me-8 bg-white">
+                <svg class="w-5 " xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={1.8}
+                    stroke="currentColor" className="size-6">
+                    <path strokeLinecap="round" strokeLinejoin="round" d="M15.75 19.5 8.25 12l7.5-7.5" />
+                </svg>
+            </button>
+
+            <div class="cardd-10 w-72 shadow-lg transition">
+                <img class="w-60 ms-6 pt-6 hover:scale-110" src="FDGBBGS_P125x3_1.jpg" alt="">
+                <div class="gap-14 ms-4 mt-4">
+                    <a class="" href="">Golden Sandalwood Oil & <br> Patchouli Gel Bar, 125g...</a>
+                    <button class="text-white text-sm font-bold bg-[#00552d] w-64 pt-1 pb-1 mb-4 mt-10">View Product</button>
+                </div>
+            </div>
+
+            <div class="cardd-11 w-72 shadow-lg transition">
+                <img class="w-60 ms-6 pt-6 hover:scale-110" src="510672_1.jpg" alt="">
+                <div class="gap-15 ms-4 mt-4">
+                    <a class="" href="">Shower Gel Unisex Celebration <br> Pack, 125ml (Pack Of...</a>
+                    <button class="text-white text-sm font-bold bg-[#00552d] w-64 pt-1 pb-1 mb-4 mt-10">View Product</button>
+                </div>
+            </div>
+
+            <div class="cardd-12 w-72 shadow-lg transition">
+                <img class="w-60 ms-6 pt-6 hover:scale-110" src="FDSGCP125x4_2.jpg" alt="">
+                <div class="gap-16 ms-4 mt-4">
+                    <a class="" href="">Shower Gel Men Celebration Pack, <br>125ml (Pack Of...</a>
+                    <button class="text-white text-sm font-bold bg-[#00552d] w-64 pt-1 pb-1 mb-4 mt-10">View Product</button>
+                </div>
+            </div>
+
+            <div class="cardd-13 w-72 shadow-lg transition">
+                <img class="w-60 ms-6 pt-6 hover:scale-110" src="FDPMPRHMPR_1.jpg" alt="">
+                <div class="gap-17 ms-4 mt-4">
+                    <a class="" href="">Happy Hamper Gift Pack, Combo <br> Set Of 3</a>
+                    <button class="text-white text-sm font-bold bg-[#00552d] w-64 pt-1 pb-1 mb-4 mt-10">View Product</button>
+                </div>
+            </div>
+
+            <button class="b-15 w-10 h-10 rounded-full shadow-lg flex items-center justify-center mt-44 -ms-8 bg-white">
+                <svg class="w-5" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={1.5}
+                    stroke="currentColor" className="size-6">
+                    <path strokeLinecap="round" strokeLinejoin="round" d="m8.25 4.5 7.5 7.5-7.5 7.5" />
+                </svg>
+            </button>
+        </div>
+    </div>
+
+
+    <div class="feel">
+        <div class="part-11 flex justify-center gap-20">
+            <h1 class="text-4xl font-bold mt-8 ">FEEL GOOD WITH FIAMA</h1>
+        </div>
+
+        <div class="images ms-20 mt-12">
+            <img width="1220px" src="feelgood.jpg" alt="">
+        </div>
+    </div>
+
+    <div class="blogs">
+        <div class="part-12 flex justify-center gap-20">
+            <h1 class="text-4xl font-bold mt-8 ">BLOGS</h1>
+        </div>
+
+        <div class="cardds-3 flex justify-center gap-6 mt-10 mb-12">
+            <button
+                class="b-16 w-10 h-10 rounded-full shadow-lg flex items-center justify-center  mt-44 -me-8 bg-white">
+                <svg class="w-5 " xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={1.8}
+                    stroke="currentColor" className="size-6">
+                    <path strokeLinecap="round" strokeLinejoin="round" d="M15.75 19.5 8.25 12l7.5-7.5" />
+                </svg>
+            </button>
+
+            <div class="cardd-14 w-96 shadow-lg">
+                <img src="b1_1_bbc9e606-cc3b-490c-ab6e-ff1f650caa9d.jpg" alt="">
+                <a class="text-gray-600 block text-sm pt-6 ps-2" href="">JAGRAN | OCTOBER 10, 2022</a>
+                <a class="block text-xl ps-2" href="">World Mental Health Day 2022</a>
+                <div class="review-10 flex">
+                    <a class=" block text-[#00552d] pt-4 pb-4 ps-2" href="">Read More</a>
+                    <img class="w-8 h-8 mt-3" src="Green arrow button close-up.png" alt="">
+                </div>
+            </div>
+
+            <div class="cardd-15 w-96 shadow-lg">
+                <img src="554_202305291016_meme2_1_8cd51825-e480-4424-b59c-0a0475ce2277.png" alt="">
+                <a class="text-gray-600 block text-sm pt-6 ps-2" href="">TRAVEL INDIA PLUS | OCTOBER 10, 2022</a>
+                <a class="block text-xl ps-2" href="">World Mental Health Day 2022</a>
+                <div class="review-11 flex">
+                    <a class=" block text-[#00552d] pt-4 pb-4 ps-2" href="">Read More</a>
+                    <img class="w-8 h-8 mt-3" src="Green arrow button close-up.png" alt="">
+                </div>
+            </div>
+
+            <div class="cardd-16 w-96 shadow-lg">
+                <img src="b3_1_b5e2d9a5-eafa-45cc-b5f4-fc2d8da0fa4d.jpg" alt="">
+                <a class="text-gray-600 block text-sm pt-6 ps-2" href="">NEWS DRUM | OCTOBER 12 , 2026</a>
+                <a class="block text-xl ps-2" href="">ITC Fiama Survey</a>
+                <div class="review-12 flex">
+                    <a class=" block text-[#00552d] pt-4 pb-4 ps-2" href="">Read More</a>
+                    <img class="w-8 h-8 mt-3" src="Green arrow button close-up.png" alt="">
+                </div>
+            </div>
+
+
+            <button class="b-17 w-10 h-10 rounded-full shadow-lg flex items-center justify-center mt-44 -ms-8 bg-white">
+                <svg class="w-5" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={1.5}
+                    stroke="currentColor" className="size-6">
+                    <path strokeLinecap="round" strokeLinejoin="round" d="m8.25 4.5 7.5 7.5-7.5 7.5" />
+                </svg>
+            </button>
+        </div>
+    </div>
+
+
+    <footer class="one flex  w-full  justify-evenly bg-[#00552d] pb-10">
+        <div class="f-1 pt-14">
+            <p class="text-white text-xl">Categories</p>
+            <a class="text-[#ffffffbf] hover:text-white block pt-4" href="">Gel Bars</a>
+            <a class="text-[#ffffffbf] hover:text-white block pt-4" href="">Shower Gels</a>
+            <a class="text-[#ffffffbf] hover:text-white block pt-4" href="">Men's Range</a>
+            <a class="text-[#ffffffbf] hover:text-white block pt-4" href="">Handwashes</a>
+            <a class="text-[#ffffffbf] hover:text-white block pt-4" href="">Bath Essentials</a>
+            <a class="text-[#ffffffbf] hover:text-white block pt-4" href="">Gift Packs</a>
+            <a class="text-white text-xl block pt-5" href="">Feel Good With Fiama</a>
+        </div>
+        <div class="f-2 pt-14">
+            <p class="text-white text-xl">Quick links</p>
+            <a class="text-[#ffffffbf] hover:text-white block pt-4" href="">Privacy Policy</a>
+            <a class="text-[#ffffffbf] hover:text-white block pt-4" href="">Terms & Conditions</a>
+        </div>
+        <div class="f-3  pt-14">
+            <p class="text-white text-xl">Help and support</p>
+            <a class="text-[#ffffffbf] hover:text-white block pt-4" href="">About Us</a>
+            <a class="text-[#ffffffbf] hover:text-white block pt-4" href="">Contact Us</a>
+        </div>
+
+        <div class="f-4 pt-12">
+            <img class="ms-6" src="whitefiama.png" alt="">
+            <div class="social flex gap-4 mt-14 transition">
+                <i class="fa-brands fa-facebook fa-xl hover:scale-110" style="color: rgb(255, 255, 255);"></i>
+                <i class="fa-brands fa-instagram fa-xl hover:scale-110" style="color: rgb(255, 255, 255);"></i>
+                <i class="fa-brands fa-youtube fa-xl hover:scale-110" style="color: rgb(255, 255, 255);"></i>
+                <i class="fa-brands fa-x-twitter fa-xl hover:scale-110" style="color: rgb(255, 255, 255);"></i>
+            </div>
+        </div>
+    </footer>
+
+    <footer class="two w-full bg-[#00552d]">
+        <p class="text-[#ffffffbf] ps-36">Disclaimer: The product colours and shades displayed on this website are only indicative and cannot be considered to be a precise representation of the actual <br> colours.</p>
+        <hr class="">
+    </footer>
+
+    <footer class="three w-full bg-[#00552d] text-center">
+        <p class="text-[#ffffffbf] text-sm pt-4 pb-6 ">© 2026 FIAMA, All Rights Reserved.</p>
+    </footer>
+
+
+
+
+  
+
+
+
+
+
+
+</body>
+
+</html>
